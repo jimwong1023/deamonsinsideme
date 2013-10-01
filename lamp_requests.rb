@@ -64,7 +64,7 @@ module LampRequests
   end
 
   def base_uri
-    "http://#{@ip}/api/#{@username}/lights/#{@light_number}"
+    "http://#{@ip}/api/1234567890/lights/#{@light_number}"
   end
 
   def state
