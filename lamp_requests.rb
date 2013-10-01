@@ -29,9 +29,17 @@ module LampRequests
   end
 
   # COLORLOOP
-  def toggle_colorloop
-    command = colorloop? ? {'effect' => 'none'} : {'effect' => 'colorloop'}
-    update_lamp(command)
+  # def toggle_colorloop
+  #   command = colorloop? ? {'effect' => 'none'} : {'effect' => 'colorloop'}
+  #   update_lamp(command)
+  # end
+
+  def colorloop_on
+    update_lamp({'effect' => 'colorloop'})
+  end
+
+  def colorloop_off
+    update_lamp({'effect' => 'none'})
   end
 
   def colorloop?
@@ -39,9 +47,17 @@ module LampRequests
   end
 
   # ON/OFF
-  def toggle_on_off
-    command = on? ? {'on' => false} : {'on' => true}
-    update_lamp(command)
+  # def toggle_on_off
+  #   command = on? ? {'on' => false} : {'on' => true}
+  #   update_lamp(command)
+  # end
+
+  def turn_on
+    update_lamp({'on' => true})
+  end
+
+  def turn_off
+    update_lamp({'on' => false})
   end
 
   def on?
@@ -64,7 +80,7 @@ module LampRequests
   end
 
   def base_uri
-    "http://#{@ip}/api/#{@username}/lights/#{@light_number}"
+    "http://#{@ip}/api/1234567890/lights/#{@light_number}"
   end
 
   def state
