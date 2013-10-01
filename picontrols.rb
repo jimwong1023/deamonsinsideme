@@ -23,4 +23,7 @@ def lampcreator(ip, username, lights_commands)
   end
 end
 
-lampcreator("192.168.0.152", "1234567890", {"2" => ["toggle_on_off"], "3" =>  ["toggle_on_off"]})
+loop do
+  lampcreator("192.168.0.152", "1234567890", {"2" => ["toggle_on_off"], "3" =>  ["toggle_on_off"]})
+  sleep(2)
+end
