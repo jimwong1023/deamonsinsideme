@@ -10,17 +10,27 @@
 
 #!/usr/bin/env ruby
 require_relative 'lamp'
+require 'pry'
 
 def get_server(email)
-  uri = "http://localhost:3000/api/#{email}"
+  uri = "http://localhost:3000/api"
   MultiJson.load(Net::HTTP.get(URI.parse(uri)))
 end
 
-def lampcreator(ip, username, lights_commands)
+def lamp_updater(ip, lights_commands)
   lights_commands.each do |light_number, command|
-    lamp = Lamp.new(ip, username, light_number, command[0], command[1])
+    lamp = Lamp.new(ip, light_number, command[0], command[1])
     lamp.send_command
   end
 end
 
-lampcreator("192.168.0.152", "1234567890", {"2" => ["toggle_on_off"], "3" =>  ["toggle_on_off"]})
+def run
+   data = get_server(nil)
+   ip = data[0]
+   commands = data[1]
+   lamp_updater(ip, commands)
+end
+
+run
+
+
