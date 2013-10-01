@@ -10,10 +10,11 @@
 
 #!/usr/bin/env ruby
 require_relative 'lamp'
+require 'pry'
 
 def get_server(email)
   uri = "http://localhost:3000/api"
-  data = MultiJson.load(Net::HTTP.get(URI.parse(uri)))
+  MultiJson.load(Net::HTTP.get(URI.parse(uri)))
 end
 
 def lamp_updater(ip, lights_commands)
@@ -22,5 +23,14 @@ def lamp_updater(ip, lights_commands)
     lamp.send_command
   end
 end
+
+def run
+   data = get_server(nil)
+   ip = data[0]
+   commands = data[1]
+   lamp_updater(ip, commands)
+end
+
+run
 
 
