@@ -4,7 +4,7 @@ require_relative './lib/lamp_controller'
 options = {
   :backtrace  => true,
   :ontop      => false,
-  :log_output => true
+  :log_output => false
 }
 
 Daemons.run_proc('hue.rb', options) do
