@@ -10,10 +10,8 @@ class LampController
 
   def run
     loop do
-      lamp_updater({"2" =>  ["turn_on"], "3" => ["turn_off"]})
-      sleep(5)
-      lamp_updater({"2" =>  ["turn_off"], "3" => ["turn_on"]})
-      sleep(5)
+      update
+      sleep(0.25)
     end
   end
 end
