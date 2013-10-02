@@ -142,3 +142,4 @@ hue.rb: process with pid 86083 started.
 	from /Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
 	from hue.rb:10:in `<main>'
 hue.rb: process with pid 86127 started.
+hue.rb: process with pid 89039 started.
