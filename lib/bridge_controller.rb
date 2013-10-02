@@ -12,7 +12,7 @@ module BridgeController
   end
 
   def base_uri
-    "http://#{@ip}/api/Huemormesilly/lights/#{@light_number}"
+    "http://#{@ip}/api/Huemoremesilly/lights/#{@light_number}"
   end
 
   def state
