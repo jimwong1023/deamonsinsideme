@@ -3,7 +3,7 @@ require 'pry'
 require 'net/http'
 require 'multi_json'
 
-module LampRun
+module PiController
   def update
      data = get_server
      lamp_updater(data[0], data[1])

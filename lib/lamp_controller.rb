@@ -2,7 +2,7 @@ require_relative 'pi_controller'
 require 'yaml'
 
 class LampController
-  include LampRun
+  include PiController
 
   def initialize
     @env = YAML::load_file(File.expand_path(File.join(__dir__, '..', 'config.yaml')))
