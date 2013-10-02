@@ -31,5 +31,10 @@ def run
    lamp_updater(ip, commands)
 end
 
-run
+loop do
+  lamp_updater("192.168.0.152", {"2" =>  ["turn_on"], "3" => ["turn_off"]})
+  sleep(5)
+  lamp_updater("192.168.0.152", {"2" =>  ["turn_off"], "3" => ["turn_on"]})
+  sleep(5)
+end
 
