@@ -8,6 +8,6 @@ options = {
 }
 
 Daemons.run_proc('hue.rb', options) do
-  lamp_controller = LampController.new(ARGV[1])
+  lamp_controller = LampController.new(ARGV[1], ARGV[2])
   lamp_controller.run
 end
