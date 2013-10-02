@@ -1,0 +1,1081 @@
+# Logfile created on 2013-10-01 18:09:41 -0700 by logger.rb/31641
+I, [2013-10-01T18:09:41.009608 #73373]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T18:09:41.009916 #73373] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:09:41.010068 #73373]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T18:09:41.010240 #73373] ERROR -- : undefined local variable or method `ip_address' for #<LampController:0x007f853101efb0 @i=0> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:12:in `block in run'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:11:in `loop'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:11:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T18:09:41.011190 #73373] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T18:09:41.011317 #73373] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T18:09:41.011396 #73373] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T18:09:41.011672 #73373] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:10:27.592024 #73429]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T18:10:27.592247 #73429] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:10:27.592331 #73429]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T18:10:27.592421 #73429] ERROR -- : undefined local variable or method `ip_address' for #<LampController:0x007ff04981efe8 @i=0> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:11:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T18:10:27.593116 #73429] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T18:10:27.593209 #73429] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T18:10:27.593283 #73429] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T18:10:27.593468 #73429] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:11:45.855935 #73511]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T18:11:45.856161 #73511] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:11:45.856247 #73511]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T18:11:45.856337 #73511] ERROR -- : wrong number of arguments (0 for 1) (ArgumentError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:6:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T18:11:45.856962 #73511] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T18:11:45.857051 #73511] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T18:11:45.857177 #73511] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T18:11:45.857483 #73511] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:12:02.392078 #73542]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T18:12:02.392310 #73542] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:12:02.392417 #73542]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T18:12:02.392520 #73542] ERROR -- : wrong number of arguments (0 for 1) (ArgumentError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:6:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T18:12:02.393311 #73542] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T18:12:02.393467 #73542] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T18:12:02.393569 #73542] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T18:12:02.393760 #73542] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:12:30.025254 #73582]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T18:12:30.025544 #73582] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:12:30.025684 #73582]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T18:12:30.025848 #73582] ERROR -- : undefined local variable or method `ip_address' for #<LampController:0x007fe83b01f3f8> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:11:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T18:12:30.027085 #73582] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T18:12:30.027294 #73582] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T18:12:30.027428 #73582] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T18:12:30.027771 #73582] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:13:00.864360 #73624]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T18:13:00.864669 #73624] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:13:00.864761 #73624]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T18:13:00.864870 #73624] ERROR -- : undefined local variable or method `ip_address' for #<LampController:0x007fbaf101f320> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:10:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T18:13:00.865572 #73624] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T18:13:00.865670 #73624] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T18:13:00.865777 #73624] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T18:13:00.866008 #73624] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:28:32.370600 #74544]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T18:28:32.370846 #74544] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T18:28:32.370948 #74544]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T18:28:32.371045 #74544] ERROR -- : wrong number of arguments (1 for 2) (ArgumentError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:6:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T18:28:32.371717 #74544] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T18:28:32.371820 #74544] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T18:28:32.371916 #74544] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T18:28:32.372110 #74544] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:41:30.140205 #80464]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:41:30.140436 #80464] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:41:30.140521 #80464]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:41:30.140617 #80464] ERROR -- : wrong number of arguments (1 for 2) (ArgumentError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:7:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:41:30.141396 #80464] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:41:30.141524 #80464] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:41:30.141601 #80464] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:41:30.141790 #80464] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:41:33.126783 #80479]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:41:33.127014 #80479] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:41:33.127101 #80479]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:41:33.127201 #80479] ERROR -- : wrong number of arguments (1 for 2) (ArgumentError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:7:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:41:33.127872 #80479] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:41:33.127961 #80479] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:41:33.128035 #80479] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:41:33.128278 #80479] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:41:47.951542 #80509]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:41:47.951772 #80509] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:41:47.951857 #80509]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:41:47.951952 #80509] ERROR -- : wrong number of arguments (1 for 2) (ArgumentError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:7:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:41:47.952585 #80509] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:41:47.952677 #80509] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:41:47.952757 #80509] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:41:47.953077 #80509] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:42:21.660325 #80554]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:42:21.660557 #80554] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:42:21.660641 #80554]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:42:21.660733 #80554] ERROR -- : wrong number of arguments (1 for 2) (ArgumentError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:7:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:42:21.661378 #80554] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:42:21.661465 #80554] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:42:21.661538 #80554] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:42:21.661724 #80554] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:43:54.670293 #80647]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:43:54.670517 #80647] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:43:54.670600 #80647]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:43:54.670681 #80647] ERROR -- : the scheme http does not accept registry part: 192.168.0.152, (or bad hostname?) (URI::InvalidURIError)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/generic.rb:213:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/http.rb:84:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/common.rb:214:in `new'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/common.rb:214:in `parse'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/common.rb:747:in `parse'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_requests.rb:79:in `parsed_uri'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_requests.rb:75:in `address'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_requests.rb:71:in `update_lamp'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_requests.rb:56:in `turn_on'
+/Users/chae/01_DBC/DBC/huedaemon/lamp.rb:16:in `send_command'
+/Users/chae/01_DBC/DBC/huedaemon/picontrols.rb:13:in `block in lamp_updater'
+/Users/chae/01_DBC/DBC/huedaemon/picontrols.rb:11:in `each'
+/Users/chae/01_DBC/DBC/huedaemon/picontrols.rb:11:in `lamp_updater'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:15:in `block in run'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:14:in `loop'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:14:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:43:54.671388 #80647] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:43:54.671537 #80647] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:43:54.671661 #80647] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:43:54.671852 #80647] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:46:33.412988 #80930]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:46:33.413214 #80930] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:46:33.413297 #80930]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:46:33.413378 #80930] ERROR -- : the scheme http does not accept registry part: 192.168.0.152, (or bad hostname?) (URI::InvalidURIError)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/generic.rb:213:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/http.rb:84:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/common.rb:214:in `new'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/common.rb:214:in `parse'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/uri/common.rb:747:in `parse'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_requests.rb:79:in `parsed_uri'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_requests.rb:75:in `address'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_requests.rb:71:in `update_lamp'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_requests.rb:56:in `turn_on'
+/Users/chae/01_DBC/DBC/huedaemon/lamp.rb:16:in `send_command'
+/Users/chae/01_DBC/DBC/huedaemon/picontrols.rb:13:in `block in lamp_updater'
+/Users/chae/01_DBC/DBC/huedaemon/picontrols.rb:11:in `each'
+/Users/chae/01_DBC/DBC/huedaemon/picontrols.rb:11:in `lamp_updater'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:13:in `block in run'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:12:in `loop'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:12:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:46:33.414040 #80930] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:46:33.414129 #80930] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:46:33.414208 #80930] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:46:33.414407 #80930] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:48:03.326267 #81040]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:48:03.326501 #81040] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:48:03.326586 #81040]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:48:03.326684 #81040] ERROR -- : uninitialized constant LampController::YAML (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `write_yaml'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:9:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:48:03.327344 #81040] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:48:03.327434 #81040] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:48:03.327524 #81040] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:48:03.327857 #81040] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:48:27.121089 #81077]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:48:27.121331 #81077] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:48:27.121424 #81077]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:48:27.121526 #81077] ERROR -- : No such file or directory - pi.yaml (Errno::ENOENT)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:24:in `write_yaml'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:10:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:48:27.122187 #81077] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:48:27.122281 #81077] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:48:27.122366 #81077] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:48:27.122556 #81077] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:49:19.885052 #81253]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:49:19.885283 #81253] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:49:19.885367 #81253]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:49:19.885461 #81253] ERROR -- : No such file or directory - pi.yaml (Errno::ENOENT)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:24:in `write_yaml'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:10:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:49:19.886158 #81253] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:49:19.886304 #81253] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:49:19.886406 #81253] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:49:19.886597 #81253] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:49:37.880683 #81285]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:49:37.880913 #81285] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:49:37.880998 #81285]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:49:37.881105 #81285] ERROR -- : No such file or directory - pi.yaml (Errno::ENOENT)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:24:in `write_yaml'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:10:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:49:37.881743 #81285] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:49:37.881833 #81285] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:49:37.881907 #81285] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:49:37.882093 #81285] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:50:16.799660 #81334]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:50:16.799883 #81334] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:50:16.799967 #81334]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:50:16.800039 #81334] ERROR -- : undefined local variable or method `d' for #<LampController:0x007fdb8a81f548> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:27:in `write_yaml'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:10:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:50:16.801315 #81334] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:50:16.801473 #81334] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:50:16.801564 #81334] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:50:16.801768 #81334] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:58:16.521507 #81798]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T20:58:16.521870 #81798] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T20:58:16.521956 #81798]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T20:58:16.522048 #81798] ERROR -- : wrong number of arguments (2 for 0) (ArgumentError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:7:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T20:58:16.522732 #81798] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T20:58:16.522825 #81798] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T20:58:16.522900 #81798] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T20:58:16.523091 #81798] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:09:30.629333 #82412]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:09:30.629559 #82412] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:09:30.629659 #82412]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:09:30.629838 #82412] ERROR -- : invalid value for Float(): "192.168.0.152" (ArgumentError)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/scalar_scanner.rb:82:in `Float'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/scalar_scanner.rb:82:in `tokenize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:48:in `deserialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:104:in `visit_Psych_Nodes_Scalar'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:273:in `block in revive_hash'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `each'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `each_slice'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `revive_hash'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:141:in `visit_Psych_Nodes_Mapping'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:238:in `visit_Psych_Nodes_Document'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/nodes/node.rb:35:in `to_ruby'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:128:in `load'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `block in load_file'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:8:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:09:30.630155 #82412] ERROR -- : No such file or directory - hue.rb.output (Errno::ENOENT)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `initialize'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `open'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `updatelog'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:13:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:09:30.630943 #82412] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:09:30.631056 #82412] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:09:30.631140 #82412] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:09:30.631334 #82412] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:09:58.158172 #82456]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:09:58.158409 #82456] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:09:58.158567 #82456]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:09:58.158706 #82456] ERROR -- : invalid value for Float(): "192.168.0.152" (ArgumentError)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/scalar_scanner.rb:82:in `Float'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/scalar_scanner.rb:82:in `tokenize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:48:in `deserialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:104:in `visit_Psych_Nodes_Scalar'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:273:in `block in revive_hash'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `each'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `each_slice'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `revive_hash'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:141:in `visit_Psych_Nodes_Mapping'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:238:in `visit_Psych_Nodes_Document'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/nodes/node.rb:35:in `to_ruby'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:128:in `load'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `block in load_file'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:8:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:09:58.158969 #82456] ERROR -- : No such file or directory - hue.rb.output (Errno::ENOENT)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `initialize'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `open'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `updatelog'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:13:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:09:58.159632 #82456] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:09:58.159728 #82456] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:09:58.159808 #82456] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:09:58.159996 #82456] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:10:30.787308 #82503]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:10:30.787522 #82503] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:10:30.787609 #82503]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:10:30.787686 #82503] ERROR -- : invalid value for Float(): "192.168.0.152" (ArgumentError)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/scalar_scanner.rb:82:in `Float'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/scalar_scanner.rb:82:in `tokenize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:48:in `deserialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:104:in `visit_Psych_Nodes_Scalar'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:273:in `block in revive_hash'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `each'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `each_slice'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `revive_hash'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:141:in `visit_Psych_Nodes_Mapping'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:238:in `visit_Psych_Nodes_Document'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/nodes/node.rb:35:in `to_ruby'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:128:in `load'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `block in load_file'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:8:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:10:30.787905 #82503] ERROR -- : not opened for writing (IOError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `truncate'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `block in updatelog'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `open'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:23:in `updatelog'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:13:in `run'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:10:30.788517 #82503] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:10:30.788600 #82503] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:10:30.788679 #82503] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:10:30.788870 #82503] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:12:11.026808 #82637]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:12:11.027064 #82637] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:12:11.027174 #82637]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:12:11.027326 #82637] ERROR -- : invalid value for Float(): "192.168.0.152" (ArgumentError)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/scalar_scanner.rb:82:in `Float'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/scalar_scanner.rb:82:in `tokenize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:48:in `deserialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:104:in `visit_Psych_Nodes_Scalar'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:273:in `block in revive_hash'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `each'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `each_slice'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:258:in `revive_hash'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:141:in `visit_Psych_Nodes_Mapping'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:238:in `visit_Psych_Nodes_Document'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:15:in `visit'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/visitor.rb:5:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/visitors/to_ruby.rb:20:in `accept'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych/nodes/node.rb:35:in `to_ruby'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:128:in `load'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `block in load_file'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:8:in `initialize'
+hue.rb:12:in `new'
+hue.rb:12:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:12:11.027659 #82637] ERROR -- : undefined local variable or method `updatelog' for #<LampController:0x007ff63381ef30> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:13:in `run'
+hue.rb:13:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:12:11.028434 #82637] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:12:11.028527 #82637] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:12:11.028607 #82637] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:12:11.028797 #82637] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:30:09.934596 #83741]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:30:09.934831 #83741] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:30:09.934915 #83741]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:30:09.935008 #83741] ERROR -- : undefined local variable or method `__dir__' for #<LampController:0x007fd0d881f410> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:8:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:30:09.935667 #83741] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:30:09.935760 #83741] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:30:09.935839 #83741] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:30:09.936028 #83741] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:32:22.620310 #83881]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:32:22.620550 #83881] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:32:22.620640 #83881]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:32:22.620744 #83881] ERROR -- : undefined local variable or method `__dir__' for #<LampController:0x007fc13b01f4b0> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:8:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:32:22.621596 #83881] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:32:22.621749 #83881] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:32:22.621840 #83881] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:32:22.622043 #83881] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:33:41.953286 #83967]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:33:41.953514 #83967] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:33:41.953600 #83967]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:33:41.953692 #83967] ERROR -- : undefined local variable or method `_dir_' for #<LampController:0x007fb9d081f5b0> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:8:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:33:41.954506 #83967] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:33:41.954625 #83967] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:33:41.954708 #83967] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:33:41.954895 #83967] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:38:08.254238 #84207]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:38:08.254457 #84207] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:38:08.254542 #84207]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:38:08.254639 #84207] ERROR -- : undefined local variable or method `__dir__' for #<LampController:0x007f852301f810> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:9:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:38:08.255375 #84207] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:38:08.255542 #84207] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:38:08.255673 #84207] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:38:08.255901 #84207] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:39:40.007000 #84303]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:39:40.007227 #84303] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:39:40.007311 #84303]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:39:40.007401 #84303] ERROR -- : undefined local variable or method `__dir__' for #<LampController:0x007fd2fb81f7b0> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:10:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:39:40.008080 #84303] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:39:40.008241 #84303] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:39:40.008333 #84303] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:39:40.008520 #84303] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:49:46.662971 #85038]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:49:46.663208 #85038] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:49:46.663293 #85038]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:49:46.663389 #85038] ERROR -- : No such file or directory - /pi.yaml (Errno::ENOENT)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:10:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:49:46.664257 #85038] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:49:46.664445 #85038] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:49:46.664582 #85038] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:49:46.664786 #85038] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:51:03.284425 #85225]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T21:51:03.284669 #85225] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T21:51:03.284767 #85225]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T21:51:03.284862 #85225] ERROR -- : No such file or directory - /pi.yaml (Errno::ENOENT)
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `initialize'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `open'
+/Users/chae/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+/Users/chae/01_DBC/DBC/huedaemon/lamp_controller.rb:11:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T21:51:03.285495 #85225] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T21:51:03.285587 #85225] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T21:51:03.285667 #85225] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T21:51:03.285882 #85225] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T22:05:17.168665 #86083]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2013-10-01T22:05:17.168997 #86083] ERROR -- : exception reentered (fatal)
+
+I, [2013-10-01T22:05:17.169141 #86083]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2013-10-01T22:05:17.169317 #86083] ERROR -- : undefined local variable or method `__dir__' for #<LampController:0x007fb16281f4a0> (NameError)
+/Users/chae/01_DBC/DBC/huedaemon/lib/lamp_controller.rb:8:in `initialize'
+hue.rb:11:in `new'
+hue.rb:11:in `block in <main>'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:255:in `block in start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/daemonize.rb:82:in `call_as_daemon'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:259:in `start_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/application.rb:296:in `start'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/controller.rb:70:in `run'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:197:in `block in run_proc'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `call'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons/cmdline.rb:109:in `catch_exceptions'
+/Users/chae/.rvm/gems/ruby-1.9.3-p448@rails3.2.11/gems/daemons-1.1.9/lib/daemons.rb:196:in `run_proc'
+hue.rb:10:in `<main>'
+E, [2013-10-01T22:05:17.170054 #86083] ERROR -- : stream closed (IOError)
+
+E, [2013-10-01T22:05:17.170162 #86083] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2013-10-01T22:05:17.170250 #86083] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2013-10-01T22:05:17.170510 #86083] ERROR -- : exception reentered (fatal)
+
