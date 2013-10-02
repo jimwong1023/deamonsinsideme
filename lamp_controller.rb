@@ -4,12 +4,9 @@ require 'yaml'
 class LampController
   include LampRun
 
-  def initialize(ip, email)
-    @ip_address = ip
-    @email = email
-    write_yaml
+  def initialize
+    @env = YAML::load_file('/Users/chae/01_DBC/DBC/huedaemon/pi.yaml')
   end
-
 
   def run
     loop do
@@ -20,10 +17,4 @@ class LampController
     end
   end
 
-  def write_yaml
-    file = YAML::load_file('/Users/chae/01_DBC/DBC/huedaemon/pi.yaml')
-    file['IP'] = @ip_address
-    file['EMAIL'] = @email
-    File.write('/Users/chae/01_DBC/DBC/huedaemon/pi.yaml', file.to_yaml)
-  end
 end
