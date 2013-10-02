@@ -1,5 +1,5 @@
 require 'daemons'
-require_relative 'lamp_controller'
+require_relative './lib/lamp_controller'
 
 options = {
   :backtrace  => true,
