@@ -5,8 +5,7 @@ class LampController
   include LampRun
 
   def initialize
-    #@env = YAML::load_file(File.join(__dir__, 'config.yml'))
-    @env = YAML::load_file('/Users/chae/01_DBC/DBC/huedaemon/config.yaml')
+    @env = YAML::load_file(File.expand_path(File.join(__dir__, '..', 'config.yaml')))
   end
 
   def run
