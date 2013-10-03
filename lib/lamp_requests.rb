@@ -24,14 +24,18 @@ module LampRequests
 require 'pry'
 # BRIGHTNESS
   def set_brightness(args = nil)
-    binding.pry
     command = { 'bri' => args.to_i }
     update_lamp(command)
   end
 
 # COLOR
   def set_color(args)
-    command = { 'hue' => args }
+    command = { 'hue' => args.to_i }
+    update_lamp(command)
+  end
+
+  def set_saturation(args)
+    command = {'sat' => args.to_i }
     update_lamp(command)
   end
 end
