@@ -2,7 +2,7 @@ require_relative 'pi_controller'
 require 'yaml'
 
 class LampController
-  include LampRun
+  include PiController
 
   def initialize
     @env = YAML::load_file(File.expand_path(File.join(__dir__, '..', 'config.yaml')))
@@ -10,10 +10,8 @@ class LampController
 
   def run
     loop do
-      lamp_updater({"2" =>  ["turn_on"], "3" => ["turn_off"]})
-      sleep(5)
-      lamp_updater({"2" =>  ["turn_off"], "3" => ["turn_on"]})
-      sleep(5)
+      update
+      sleep(0.25)
     end
   end
 end
