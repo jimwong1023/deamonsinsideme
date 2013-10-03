@@ -12,10 +12,6 @@ module LampRequests
     update_lamp({'on' => false})
   end
 
-  def on?
-    state['on']
-  end
-
 # COLORLOOP
   def colorloop_on
     update_lamp({'effect' => 'colorloop'})
@@ -25,18 +21,12 @@ module LampRequests
     update_lamp({'effect' => 'none'})
   end
 
-  def colorloop?
-    state['effect'] == 'colorloop' ? true : false
-  end
-
+require 'pry'
 # BRIGHTNESS
-  def set_brightness(args)
-    command = { 'bri' => args }
+  def set_brightness(args = nil)
+    binding.pry
+    command = { 'bri' => args.to_i }
     update_lamp(command)
-  end
-
-  def state_brightness
-    state['bri']
   end
 
 # COLOR
