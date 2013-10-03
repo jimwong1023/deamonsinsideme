@@ -5,14 +5,12 @@ require_relative 'lamp_requests'
 class Lamp
   include LampRequests
 
-  def initialize(ip, light_number, command, args = nil)
+  def initialize(ip, num)
+    @light_number = num
     @ip = ip
-    @light_number = light_number
-    @command = command
-    @args = args
   end
-  
-  def send_command
-    @args ? self.send(@command, @args) : self.send(@command)
+
+  def send_command(command, args = nil)
+    args ? self.send(command, args) : self.send(command)
   end
 end
