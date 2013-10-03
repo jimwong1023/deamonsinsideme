@@ -6,7 +6,8 @@ require 'multi_json'
 module PiController
   def update
      data = get_server
-     lamp_updater(data[0], data[1])
+     @lamp_ip = data[0]
+     lamp_updater(@lamp_ip, data[1])
   end
 
   def get_server
