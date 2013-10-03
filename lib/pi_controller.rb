@@ -17,7 +17,6 @@ module PiController
   def lamp_updater(ip, lights_commands)
     lights_commands.each do |uniq_number, command|
       lamp = Lamp.new(ip, uniq_number)
-
       command.each do |msg, args|
         lamp.send_command(msg, args)
       end
