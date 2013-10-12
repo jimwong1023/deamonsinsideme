@@ -6,13 +6,14 @@ class LampController
 
   def initialize
     @env = YAML::load_file(File.expand_path(File.join(__dir__, '..', 'config.yaml')))
+    @uri = "http://huemorme.herokuapp.com/api/#{@env['TOKEN']}"
+    @last_updated = lamp_data
     @lamp_ip = ''
-    @time_last_updated = Time.now
   end
 
   def run
     loop do
-      update
+      find_app_data
       find_sleep
     end
   end
