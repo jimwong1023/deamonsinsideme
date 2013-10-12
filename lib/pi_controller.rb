@@ -12,9 +12,9 @@ module PiController
   def get_server
     uri = "http://huemorme.herokuapp.com/api/#{@env['TOKEN']}"
     response = Net::HTTP.get(URI.parse(uri))
-    # response.status should be 200 if everything is okay
     MultiJson.load(response)
   end
+    # response.status should be 200 if everything is okay
 
   def lamp_updater(ip, lights_commands)
     lights_commands.each do |uniq_number, command|

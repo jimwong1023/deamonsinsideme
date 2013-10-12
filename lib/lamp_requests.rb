@@ -21,7 +21,6 @@ module LampRequests
     update_lamp({'effect' => 'none'})
   end
 
-require 'pry'
 # BRIGHTNESS
   def set_brightness(args = nil)
     command = { 'bri' => args.to_i }
