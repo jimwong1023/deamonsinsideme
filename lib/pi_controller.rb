@@ -4,17 +4,16 @@ require 'net/http'
 require 'multi_json'
 
 module PiController
-  def update
-     bridge_updater(lamp_data[0], lamp_data[1])
+  def find_app_data
+     parse_app_data(lamp_data[0], lamp_data[1])
   end
 
   def lamp_data
-    uri = "http://huemorme.herokuapp.com/api/#{@env['TOKEN']}"
-    response = Net::HTTP.get(URI.parse(uri))
+    response = Net::HTTP.get(URI.parse(@uri))
     MultiJson.load(response)
   end
 
-  def bridge_updater(ip, lights_commands)
+  def parse_app_data(ip, lights_commands)
     lights_commands.each do |uniq_number, command|
       lamp = Lamp.new(ip, uniq_number)
       command.each do |msg, args|
@@ -24,7 +23,11 @@ module PiController
   end
 
   def find_sleep
-
-    sleep(1)
+    if @last_updated == lamp_data
+      sleep(10)
+    else
+      sleep(2)
+      @last_updated = lamp_data
+    end
   end
 end
