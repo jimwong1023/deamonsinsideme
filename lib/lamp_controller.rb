@@ -7,12 +7,13 @@ class LampController
   def initialize
     @env = YAML::load_file(File.expand_path(File.join(__dir__, '..', 'config.yaml')))
     @lamp_ip = ''
+    @time_last_updated = Time.now
   end
 
   def run
     loop do
       update
-      sleep(0.25)
+      find_sleep
     end
   end
 end
