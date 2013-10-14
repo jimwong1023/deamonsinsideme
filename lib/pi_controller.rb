@@ -1,5 +1,4 @@
 require_relative 'lamp'
-require 'pry'
 require 'net/http'
 require 'multi_json'
 
