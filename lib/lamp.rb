@@ -1,6 +1,6 @@
-require 'multi_json'
-require 'net/http'
 require_relative 'lamp_requests'
+require 'net/http'
+require 'multi_json'
 
 class Lamp
   include LampRequests
