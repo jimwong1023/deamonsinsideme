@@ -12,12 +12,9 @@ module PiController
     MultiJson.load(response)
   end
 
-  def parse_app_data(ip, lights_commands)
-    lights_commands.each do |uniq_number, command|
-      lamp = Lamp.new(ip, uniq_number)
-      command.each do |msg, args|
-        lamp.send_command(msg, args)
-      end
+  def parse_app_data(ip, lights_data)
+    lights_data.each do |uniq_number, commands|
+      Lamp.new(ip, uniq_number, commands)
     end
   end
 
