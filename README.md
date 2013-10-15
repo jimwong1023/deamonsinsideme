@@ -2,7 +2,7 @@
 
     $ ruby -v
 
-Confirm `ruby 2.0.0p247`
+Confirm `ruby 2.0.0-p247`
 
     $ bundle install
     $ ruby hue.rb start
