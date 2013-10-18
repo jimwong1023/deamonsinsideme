@@ -24,11 +24,11 @@ module BridgeRequests
   end
 
 # COLOR
-  def set_color(args)
+  def set_color(args = nil)
     { 'hue' => args.to_i }
   end
 
-  def set_saturation(args)
+  def set_saturation(args = nil)
     {'sat' => args.to_i }
   end
 end
