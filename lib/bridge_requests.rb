@@ -1,7 +1,4 @@
-require_relative 'bridge_controller'
-
-module LampRequests
-  include BridgeController
+module BridgeRequests
 
 # ON/OFF
   def turn_on

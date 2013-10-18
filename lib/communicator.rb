@@ -1,3 +1,6 @@
+require 'net/http'
+require 'multi_json'
+
 ENV = YAML::load_file(File.expand_path(File.join(__dir__, '..', 'config.yaml')))
 URI = "http://huemorme.herokuapp.com/api/#{ENV['TOKEN']}"
 

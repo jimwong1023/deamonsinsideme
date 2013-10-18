@@ -1,9 +1,7 @@
-require_relative 'pi_controller'
 require_relative 'communicator'
 require 'yaml'
 
 class LampController
-  include PiController
 
   def initialize
     @last_updated = Communicator::lamp_data
@@ -11,7 +9,7 @@ class LampController
 
   def run
     loop do
-      find_app_data(Communicator::lamp_data)
+      update_bridge(Communicator::lamp_data)
       find_sleep
     end
   end
@@ -27,12 +25,11 @@ class LampController
     end
   end
 
-
-  def find_app_data(lights_data)
-    #destroy all lamps first - clean out db
+  def update_bridge(lights_data)
     lights_data.each do |uniq_number, commands|
       Lamp.new(uniq_number, commands)
     end
   end
-
 end
+
+

@@ -1,9 +1,9 @@
-require_relative 'lamp_requests'
+require_relative 'bridge_requests'
 require 'net/http'
 require 'multi_json'
 
 class Lamp
-  include LampRequests
+  include BridgeRequests
 
   def initialize(uniq_num, commands)
     @light_number = uniq_num
@@ -16,7 +16,7 @@ class Lamp
       values = send_command(msg, args)
       properties = properties.merge!(values)
     end
-    update(properties)
+    Communicator::update(properties)
   end
 
   def send_command(command, args = nil)
@@ -24,3 +24,4 @@ class Lamp
   end
 end
 
+Client - consturct lamps - but passses itself to lamp
