@@ -3,7 +3,6 @@ URI = "http://huemorme.herokuapp.com/api/#{ENV['TOKEN']}"
 
 module Communicator
 
-
   def lamp_data
     response = Net::HTTP.get(URI.parse(URI))
     MultiJson.load(response)
@@ -17,7 +16,7 @@ module Communicator
     lamp_data[1]
   end
 
-  def update_lamp(command)
+  def update(command)
     address.request_put(parsed_uri.path, MultiJson.dump(command))
   end
 
