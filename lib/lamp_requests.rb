@@ -5,36 +5,33 @@ module LampRequests
 
 # ON/OFF
   def turn_on
-    update_lamp({'on' => true})
+    {'on' => true}
   end
 
   def turn_off
-    update_lamp({'on' => false})
+    {'on' => false}
   end
 
 # COLORLOOP
   def colorloop_on
-    update_lamp({'effect' => 'colorloop'})
+    {'effect' => 'colorloop'}
   end
 
   def colorloop_off
-    update_lamp({'effect' => 'none'})
+    {'effect' => 'none'}
   end
 
 # BRIGHTNESS
   def set_brightness(args = nil)
-    command = { 'bri' => args.to_i }
-    update_lamp(command)
+    { 'bri' => args.to_i }
   end
 
 # COLOR
   def set_color(args)
-    command = { 'hue' => args.to_i }
-    update_lamp(command)
+    { 'hue' => args.to_i }
   end
 
   def set_saturation(args)
-    command = {'sat' => args.to_i }
-    update_lamp(command)
+    {'sat' => args.to_i }
   end
 end
