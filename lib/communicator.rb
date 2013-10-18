@@ -3,8 +3,8 @@ require 'multi_json'
 require 'yaml'
 require 'pry'
 
-API_LOCATION = YAML::load_file(File.expand_path(File.join(__dir__, '..', 'config.yaml')))
-ADDRESS = "http://huemorme.herokuapp.com/api/#{API_LOCATION['TOKEN']}"
+USER = YAML::load_file(File.expand_path(File.join(__dir__, '..', 'config.yaml')))
+ADDRESS = "http://huemorme.herokuapp.com/api/#{USER['TOKEN']}"
 
 module Communicator
   class << self
@@ -21,8 +21,7 @@ module Communicator
       huemorme_data[0]
     end
 
-    def update(command)
-      binding.pry
+    def update(lights, command)
       address.request_put(parsed_uri.path, MultiJson.dump(command))
     end
 
@@ -35,7 +34,7 @@ module Communicator
     end
 
     def base_uri
-      "http://#{self.ip}/api/Huemormesilly/lights/#{self.lights_data}"
+      "http://#{self.ip}/api/Huemormesilly/lights/1"
     end
 
     def state
