@@ -7,14 +7,20 @@ class Lamp
 
   def initialize(uniq_num, commands)
     @light_number = uniq_num
-    message(commands)
+    set_properties(commands)
   end
 
-  def message(commands)
-    commands.each { |msg, args| send_command(msg, args) }
+  def set_properties(commands)
+    properties = {}
+    commands.each do |msg, args|
+      values = send_command(msg, args)
+      properties = properties.merge!(values)
+    end
+    update(properties)
   end
 
   def send_command(command, args = nil)
     args ? self.send(command, args) : self.send(command)
   end
 end
+
