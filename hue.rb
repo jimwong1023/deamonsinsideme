@@ -1,5 +1,5 @@
 require 'daemons'
-require_relative './lib/lamp_controller'
+require_relative './lib/huemorme'
 
 options = {
   :backtrace  => true,
@@ -8,6 +8,6 @@ options = {
 }
 
 Daemons.run_proc('hue.rb', options) do
-  lamp_controller = LampController.new
-  lamp_controller.run
+  client = HuemorMe.new
+  client.run
 end

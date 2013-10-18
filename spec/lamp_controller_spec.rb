@@ -1,4 +1,4 @@
-require_relative '../lib/lamp_controller'
+arequire_relative '../lib/lamp_controller'
 require 'rspec'
 require 'webmock' #look at VCR
 include WebMock::API

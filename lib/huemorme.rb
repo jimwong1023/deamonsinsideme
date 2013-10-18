@@ -1,7 +1,7 @@
 require_relative 'communicator'
 require 'yaml'
 
-class LampController
+class HuemorMe
 
   def initialize
     @last_updated = Communicator::lamp_data
@@ -14,7 +14,8 @@ class LampController
     end
   end
 
-  ######################
+
+  private
 
   def find_sleep
     if @last_updated == Communicator::lamp_data
