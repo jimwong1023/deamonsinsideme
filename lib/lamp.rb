@@ -1,6 +1,8 @@
+require_relative 'communicator'
 require_relative 'bridge_requests'
 require 'net/http'
 require 'multi_json'
+require 'pry'
 
 class Lamp
   include BridgeRequests
@@ -23,5 +25,3 @@ class Lamp
     args ? self.send(command, args) : self.send(command)
   end
 end
-
-Client - consturct lamps - but passses itself to lamp
