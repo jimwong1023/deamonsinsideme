@@ -5,9 +5,8 @@ require 'multi_json'
 class Lamp
   include LampRequests
 
-  def initialize(ip, num, commands)
-    @light_number = num
-    @ip = ip
+  def initialize(uniq_num, commands)
+    @light_number = uniq_num
     message(commands)
   end
 

@@ -28,10 +28,10 @@ class LampController
   end
 
 
-  def find_app_data(Communicator::ip, Communicator::lights_data)
+  def find_app_data(lights_data)
     #destroy all lamps first - clean out db
     lights_data.each do |uniq_number, commands|
-      Lamp.new(ip, uniq_number, commands)
+      Lamp.new(uniq_number, commands)
     end
   end
 
